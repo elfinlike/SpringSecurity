@@ -1,0 +1,8 @@
+1.全局图景，Spring Security在应用里扮演什么角色：
+    Authentication(认证)：决定你是谁；
+    Authorization(授权)： 解决你能做什么；
+    SecurityContext(安全上下文)：存放当前线程的认证信息(含主体、权限)；
+    SecurityFilterChain：一组按序执行的Servlet过滤器，对每个http请求做安全处理；
+
+
+2.
